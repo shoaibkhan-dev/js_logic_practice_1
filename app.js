@@ -30,6 +30,10 @@ function reverse(rev){
 
 console.log(reverse("shoaib"))
 
+function reverse(str){
+    return str.split("").reverse().join("")
+}
+console.log(reverse("dure"))
 
 function evenOdd(num){
     if(num % 2 ===0){
@@ -51,3 +55,4 @@ function evenOdd(num){
 }
 
 evenOdd(7)
+
