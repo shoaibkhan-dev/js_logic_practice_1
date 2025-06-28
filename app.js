@@ -70,11 +70,12 @@ let persson2 = new Person("ishfaq", "khan");
 
 persson1.fullName()
 
-function name(num) {
-    if(num %2 === 0){
+function checkEvenOdd(num) {
+    if(num % 2 === 0){
         console.log("even")
     } else{
         console.log("odd")
     }
 }
-name()
+checkEvenOdd()
+
