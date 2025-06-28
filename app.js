@@ -69,3 +69,7 @@ let persson1 = new Person("shoaib", "khan");
 let persson2 = new Person("ishfaq", "khan");
 
 persson1.fullName()
+
+function name(params) {
+    
+}
